@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Josefin+Sans&family=Recursive&family=Secular+One&display=swap');
+ /*CSS reset*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,
+
+body{
+   height: 100vh;
+   width: 100%;
+   position: relative;
+
+}
+body {
+	background-color: #FFE5F1;
+  font-family: 'Cinzel', serif;
+  color:#472183;
+ }
+
+ #my-avatar{
+    width: 150px;
+ }
+
+ #content {
+	text-align: center;
+	height: 100%;
+
+ }
+
+ #myname {
+	font-family: 'Niconne' cursive;
+	color: #46C2CB;
+ }
+
+ #left-side{
+	position: absolute;
+	top: 16px;
+	left: 16px;
+ }
+ left-side > a {
+	margin-right:16px;
+ }
+
+ #right-side{
+	position: absolute;
+	top: 16px;
+	right: 16px;
+ }
+
+ a{
+	color: #10A19D;
+	text-decoration: none;
+	boder-bottom: 1px dotted #A555EC;
+
+ }
+
+footer{
+	position: absolute;
+	bottom: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+footer a:first-child{
+    margin-right: 16px;
+}
+
+#content div{
+	width: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Projects page */
+
+#hero-banner {
+	background-color: red;
+}
+#hero-banner > div {
+	background-color: blue;
+	width: 50%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#hero-banner {
+	background-color: red;
+}
+#hero-banner > div {
+	background-color: blue;
+	width: 50%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#hero-banner > div> div {
+	display: inline-block;
+	background-color: red;
+}
